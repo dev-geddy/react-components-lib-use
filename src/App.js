@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import './test.scss';
 
-import { ActionButton } from 'react-components-lib/src/sdk/ActionButton/ActionButton.js'
-// let ActionButton = sdk.ActionButton
+import sdk from 'react-components-lib'
+let ActionButton = sdk.ActionButton
 // import { ActionButton } from 'react-components-lib/src/sdk/ActionButton/ActionButton'
 // import 'react-components-lib/src/sdk/ActionButton/ActionButton.scss'
 // <ActionButton onClick={this.handleButtonClick.bind(this)} name="Click me now!" />
